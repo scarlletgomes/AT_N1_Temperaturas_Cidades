@@ -12,7 +12,7 @@ A atividade consiste na criação de um experimento para comparar a performance 
 
 # Funcionalidades
 
-- Lê arquivos CSV com temperaturas diárias;
+- Lê arquivos CSV com temperaturas diárias de cidades;
 - Calcula as temperaturas médias, máximas e mínimas mensais de 320 cidades desde o ano de 1995 até 2014;
   
 # Tecnologias Utilizadas 
