@@ -5,8 +5,9 @@ import Entidades.Ano;
 import Entidades.Mes;
 
 public class Main {
-
+	
     public static void main(String[] args) {
+    	long tempoInicio = System.currentTimeMillis();
         Organizador org = new Organizador();
 
         org.organizarCidades();
@@ -27,5 +28,13 @@ public class Main {
                 System.out.println("\n");
             }
         }
+
+        // Captura o tempo final em milissegundos
+        long tempoFim = System.currentTimeMillis();
+
+        // Calcula o tempo total de execução
+        long tempoExecucao = tempoFim - tempoInicio;
+
+        System.out.println("Tempo de execução: " + tempoExecucao/1000 + " segundos");
     }
 }
