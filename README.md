@@ -25,7 +25,7 @@ A atividade consiste na criação de um experimento para comparar a performance 
 
 # Autores
 
-|[<img src="https://avatars.githubusercontent.com/u/112136979?v=4" width=115><br><sub> Matheus Anderson </sub>](https://github.com/AnderMath7)|[<img src="https://avatars.githubusercontent.com/u/111534933?v=4" width=115><br><sub> Rafael Araujo </sub>](https://github.com/RafaKHR)|[<img src="https://avatars.githubusercontent.com/u/86412432?v=4" width=115><br><sub> Scarllet Gomes </sub>](https://github.com/Scarlletgomes)|[<img src="https://avatars.githubusercontent.com/u/113727076?v=4" width=115><br><sub> Guilherme Bemvindo </sub>](https://github.com/BemvindoGui)|
-| :---: | :---: | :---: |
+|[<img src="https://avatars.githubusercontent.com/u/113727076?v=4" width=115><br><sub> Guilherme Bemvindo </sub>](https://github.com/BemvindoGui)|[<img src="https://avatars.githubusercontent.com/u/112136979?v=4" width=115><br><sub> Matheus Anderson </sub>](https://github.com/AnderMath7)|[<img src="https://avatars.githubusercontent.com/u/111534933?v=4" width=115><br><sub> Rafael Araujo </sub>](https://github.com/RafaKHR)|[<img src="https://avatars.githubusercontent.com/u/86412432?v=4" width=115><br><sub> Scarllet Gomes </sub>](https://github.com/Scarlletgomes) |
+| :---: | :---: | :---: | :---: | 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
