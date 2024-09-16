@@ -1,13 +1,14 @@
 package Temperaturas_Cidades.main;
 
-import Entidades.Cidade;
 import Entidades.Ano;
+import Entidades.Cidade;
 import Entidades.Mes;
 
-public class Main {
+public class Versao1 {
+	Versao1(){}
 	
-    public static void main(String[] args) {
-    	long tempoInicio = System.currentTimeMillis();
+	void iniciarV1() {
+		
         Organizador org = new Organizador();
 
         org.organizarCidades();
@@ -28,13 +29,7 @@ public class Main {
                 System.out.println("\n");
             }
         }
+	}
 
-        // Captura o tempo final em milissegundos
-        long tempoFim = System.currentTimeMillis();
-
-        // Calcula o tempo total de execução
-        long tempoExecucao = tempoFim - tempoInicio;
-
-        System.out.println("Tempo de execução: " + tempoExecucao/1000 + " segundos");
-    }
+	
 }
