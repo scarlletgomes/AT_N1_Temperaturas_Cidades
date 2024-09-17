@@ -48,10 +48,8 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V2: " + tempoMedio);
-		
 	}
 	
 	//IMPLEMENTAR TESTE DAS OUTRAS VERSÕES...
 	//(AS OUTRAS VERSÕES, DE 2 A 10, DEVEM FICAR EM UM ARQUIVO SÓ...)
-
 }
