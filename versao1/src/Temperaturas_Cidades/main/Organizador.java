@@ -16,9 +16,9 @@ public class Organizador {
 	void organizarCidades(){
 		LeitorCSV lcsv = new LeitorCSV();
 		File pasta = new File("temperaturas_cidades.arquivos");
-
+		
 		for(File file:pasta.listFiles()) {
-			cidades.add(lcsv.lerCSV(pasta + "\\" + file.getName())); 
+			cidades.add(lcsv.lerCSV(pasta + "\\" + file.getName()));
 		}
 	}
 }
