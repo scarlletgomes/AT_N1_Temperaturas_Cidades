@@ -5,7 +5,7 @@ public class Main1 {
 	private static long[] tempoExecucoes;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		GeraResultadoTeste resultado = new GeraResultadoTeste();
 		Versao1 v1 = new Versao1();
 		Versoes2a10 v2a10 = new Versoes2a10();
 		
@@ -30,7 +30,7 @@ public class Main1 {
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V1: " + tempoMedio);
 		
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 1");
 		
 		//TESTE VERSÃO 2
 		for(int i = 0; i < numExecucoes; i++) {
@@ -48,7 +48,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V2: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 2");
 		
 		//TESTE VERSÃO 3
 		for(int i = 0; i < numExecucoes; i++) {
@@ -66,7 +66,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V3: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 3");
 		
 		//TESTE VERSÃO 4
 		for(int i = 0; i < numExecucoes; i++) {
@@ -84,7 +84,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V4: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 4");
 		
 		//TESTE VERSÃO 5
 		for(int i = 0; i < numExecucoes; i++) {
@@ -102,7 +102,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V5: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 5");
 
 
 		//TESTE VERSÃO 6
@@ -121,7 +121,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V6: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 6");
 
 		//TESTE VERSÃO 7
 		for(int i = 0; i < numExecucoes; i++) {
@@ -139,7 +139,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V7: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 7");
 
 
 		//TESTE VERSÃO 8
@@ -158,7 +158,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V8: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 8");
 
 
 		//TESTE VERSÃO 9
@@ -177,7 +177,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V9: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 9");
 
 
 		//TESTE VERSÃO 10
@@ -196,7 +196,7 @@ public class Main1 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V10: " + tempoMedio);
-		//FUNÇÃO QUE GERA RESULTADO
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 10");
 		
 	}
 	
