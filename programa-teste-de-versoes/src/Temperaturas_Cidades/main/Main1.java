@@ -51,59 +51,153 @@ public class Main1 {
 		//FUNÇÃO QUE GERA RESULTADO
 		
 		//TESTE VERSÃO 3
-				for(int i = 0; i < numExecucoes; i++) {
-					long tempoInicio = System.currentTimeMillis();
-					
-					v2a10.iniciarV3();
-					
-					// Captura o tempo final em milissegundos
-			        long tempoFim = System.currentTimeMillis();
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV3();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
 
-			        // Calcula o tempo total de execução
-			        tempoExecucoes[i] = tempoFim - tempoInicio;
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
 
-					tempoMedio +=tempoExecucoes[i];
-				}
-				tempoMedio = tempoMedio/10;
-				System.out.println("Tempo de execução médio V3: " + tempoMedio);
-				//FUNÇÃO QUE GERA RESULTADO
-				
-				//TESTE VERSÃO 4
-				for(int i = 0; i < numExecucoes; i++) {
-					long tempoInicio = System.currentTimeMillis();
-					
-					v2a10.iniciarV4();
-					
-					// Captura o tempo final em milissegundos
-			        long tempoFim = System.currentTimeMillis();
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V3: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+		
+		//TESTE VERSÃO 4
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV4();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
 
-			        // Calcula o tempo total de execução
-			        tempoExecucoes[i] = tempoFim - tempoInicio;
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
 
-					tempoMedio +=tempoExecucoes[i];
-				}
-				tempoMedio = tempoMedio/10;
-				System.out.println("Tempo de execução médio V4: " + tempoMedio);
-				//FUNÇÃO QUE GERA RESULTADO
-				
-				//TESTE VERSÃO 5
-				for(int i = 0; i < numExecucoes; i++) {
-					long tempoInicio = System.currentTimeMillis();
-					
-					v2a10.iniciarV5();
-					
-					// Captura o tempo final em milissegundos
-			        long tempoFim = System.currentTimeMillis();
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V4: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+		
+		//TESTE VERSÃO 5
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV5();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
 
-			        // Calcula o tempo total de execução
-			        tempoExecucoes[i] = tempoFim - tempoInicio;
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
 
-					tempoMedio +=tempoExecucoes[i];
-				}
-				tempoMedio = tempoMedio/10;
-				System.out.println("Tempo de execução médio V5: " + tempoMedio);
-				//FUNÇÃO QUE GERA RESULTADO
-				
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V5: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+
+
+		//TESTE VERSÃO 6
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV6();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
+
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
+
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V6: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+
+		//TESTE VERSÃO 7
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV7();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
+
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
+
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V7: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+
+
+		//TESTE VERSÃO 8
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV8();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
+
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
+
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V8: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+
+
+		//TESTE VERSÃO 9
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV9();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
+
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
+
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V9: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+
+
+		//TESTE VERSÃO 10
+		for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v2a10.iniciarV10();
+			
+			// Captura o tempo final em milissegundos
+		long tempoFim = System.currentTimeMillis();
+
+		// Calcula o tempo total de execução
+		tempoExecucoes[i] = tempoFim - tempoInicio;
+
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V10: " + tempoMedio);
+		//FUNÇÃO QUE GERA RESULTADO
+		
 	}
 	
 	//IMPLEMENTAR TESTE DAS OUTRAS VERSÕES...
