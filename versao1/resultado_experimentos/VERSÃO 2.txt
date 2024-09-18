@@ -1,0 +1,13 @@
+RESULTADO VERSÃO 2
+Rodada 01: Tempo de Execução = 4498 milisecundos
+Rodada 11: Tempo de Execução = 4570 milisecundos
+Rodada 21: Tempo de Execução = 4308 milisecundos
+Rodada 31: Tempo de Execução = 4330 milisecundos
+Rodada 41: Tempo de Execução = 4565 milisecundos
+Rodada 51: Tempo de Execução = 4291 milisecundos
+Rodada 61: Tempo de Execução = 4335 milisecundos
+Rodada 71: Tempo de Execução = 4562 milisecundos
+Rodada 81: Tempo de Execução = 4525 milisecundos
+Rodada 91: Tempo de Execução = 4409 milisecundos
+Tempo médio = 6174
+
