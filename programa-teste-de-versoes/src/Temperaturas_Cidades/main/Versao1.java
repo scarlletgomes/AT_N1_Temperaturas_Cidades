@@ -18,20 +18,17 @@ public class Versao1 {
 		File pasta = new File("temperaturas_cidades.arquivos");
 		
 		for(File file:pasta.listFiles()) {
-			cidades.add(lcsv.lerCSV(pasta + "\\" + file.getName()));
+			cidades.add(lcsv.lerCSV(pasta + "\\" + file.getName(), false));
 		}
 	}
 	
 	void iniciarV1() {
         organizarCidades();
         System.out.println("TEMPERATURAS CIDADES\n");
-
         for (Cidade cidade : cidades) {
             System.out.println("Cidade: " + cidade.getNomeCidade() + "\nPaís: " + cidade.getPais());
-
             for (Ano ano : cidade.getAnos()) {
                 System.out.println("Ano: " + ano.getNumeroAno());
-
                 for (Mes mes : ano.getMeses()) {
                     System.out.println("  Mês: " + mes.getNumero());
                     System.out.printf("    Média do mês: %.2f\n", mes.getMediaTempMensal());
