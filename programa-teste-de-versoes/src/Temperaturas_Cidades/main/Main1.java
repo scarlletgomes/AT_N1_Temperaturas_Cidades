@@ -199,7 +199,4 @@ public class Main1 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 10");
 		
 	}
-	
-	//IMPLEMENTAR TESTE DAS OUTRAS VERSÕES...
-	//(OUTRAS VERSÕES..., DE 6 A 10, DEVEM FICAR EM UM ARQUIVO SÓ...)
 }
