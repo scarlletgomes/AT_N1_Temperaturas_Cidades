@@ -5,47 +5,47 @@ public class Versoes2a10 {
 	
 	void iniciarV2(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(2);
+		configT.setThreads(2, false);
 	}
 	
 	void iniciarV3(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(4);
+		configT.setThreads(4, false);
 	}
 	
 	void iniciarV4(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(8);
+		configT.setThreads(8, false);
 	}
 	
 	void iniciarV5(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(16);
+		configT.setThreads(16, false);
 	}
 	
 	void iniciarV6(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(32);
+		configT.setThreads(32, false);
 	}
 	
 	void iniciarV7(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(64);
+		configT.setThreads(64, false);
 	}
 	
 	void iniciarV8(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(80);
+		configT.setThreads(80, false);
 	}
 	
 	void iniciarV9(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(160);
+		configT.setThreads(160, false);
 	}
 	
 	void iniciarV10(){
 		System.out.println("TEMPERATURAS CIDADES\n");
-		configT.setThreads(320);
+		configT.setThreads(320, false);
 	}
 
 }
