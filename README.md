@@ -8,7 +8,7 @@
 
 # Descrição do Projeto
 
-A atividade consiste na criação de um experimento para comparar a performance da leitura de alguns arquivos de acordo com o número de threads usado.
+A atividade consiste na realização de um experimento que visa comparar a eficácia da leitura de vários arquivos em relação ao número de threads usados.
 
 # Funcionalidades
 
