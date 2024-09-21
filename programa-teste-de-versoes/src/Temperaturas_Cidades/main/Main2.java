@@ -163,5 +163,22 @@ public class Main2 {
 		System.out.println("Tempo de execução médio V1: " + tempoMedio);
 		
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 19");
+
+		//TESTE VERSÃO 20
+      for(int i = 0; i < numExecucoes; i++) {
+			long tempoInicio = System.currentTimeMillis();
+			
+			v12a20.iniciarV20();
+			
+		long tempoFim = System.currentTimeMillis();
+
+		tempoExecucoes[i] = tempoFim - tempoInicio;
+
+			tempoMedio +=tempoExecucoes[i];
+		}
+		tempoMedio = tempoMedio/10;
+		System.out.println("Tempo de execução médio V1: " + tempoMedio);
+		
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 20");
 	}
 }
