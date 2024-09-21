@@ -1,0 +1,13 @@
+RESULTADO VERSÃO 10
+Rodada 1: Tempo de Execução = 605 milisecundos
+Rodada 2: Tempo de Execução = 600 milisecundos
+Rodada 3: Tempo de Execução = 597 milisecundos
+Rodada 4: Tempo de Execução = 579 milisecundos
+Rodada 5: Tempo de Execução = 603 milisecundos
+Rodada 6: Tempo de Execução = 609 milisecundos
+Rodada 7: Tempo de Execução = 578 milisecundos
+Rodada 8: Tempo de Execução = 581 milisecundos
+Rodada 9: Tempo de Execução = 609 milisecundos
+Rodada 10: Tempo de Execução = 623 milisecundos
+Tempo médio = 661
+
