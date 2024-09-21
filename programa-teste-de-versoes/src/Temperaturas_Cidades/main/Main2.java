@@ -43,10 +43,10 @@ public class Main2 {
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V1: " + tempoMedio);
-        resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 12");
-        
-        //TESTE VERSÃO 13
-        for(int i = 0; i < numExecucoes; i++) {
+	        resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 12");
+	        
+	        //TESTE VERSÃO 13
+	        for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV13();
@@ -63,7 +63,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 13");
 				
 		//TESTE VERSÃO 14
-        for(int i = 0; i < numExecucoes; i++) {
+       		 for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV14();
@@ -80,7 +80,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 14");
 		
 		//TESTE VERSÃO 15
-        for(int i = 0; i < numExecucoes; i++) {
+        	for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV15();
@@ -97,7 +97,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 15");
 		
 		//TESTE VERSÃO 16
-      for(int i = 0; i < numExecucoes; i++) {
+      		for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV16();
@@ -114,7 +114,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 16");
 
 		//TESTE VERSÃO 17
-      for(int i = 0; i < numExecucoes; i++) {
+      		for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV17();
@@ -131,7 +131,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 17");
 
 		//TESTE VERSÃO 18
-      for(int i = 0; i < numExecucoes; i++) {
+      		for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV18();
@@ -148,7 +148,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 18");
 
 		//TESTE VERSÃO 19
-      for(int i = 0; i < numExecucoes; i++) {
+      		for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV19();
@@ -165,7 +165,7 @@ public class Main2 {
 		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 19");
 
 		//TESTE VERSÃO 20
-      for(int i = 0; i < numExecucoes; i++) {
+      		for(int i = 0; i < numExecucoes; i++) {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v12a20.iniciarV20();
