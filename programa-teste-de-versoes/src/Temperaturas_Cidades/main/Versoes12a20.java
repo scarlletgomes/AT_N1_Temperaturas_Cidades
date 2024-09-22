@@ -1,7 +1,7 @@
 package Temperaturas_Cidades.main;
 
 public class Versoes12a20 {
-	ControlaThreadCidade configT = new ControlaThreadCidade();
+	ControlaThreadCidade2 configT = new ControlaThreadCidade2();
 	
 	void iniciarV12(){
 		System.out.println("TEMPERATURAS CIDADES\n");
@@ -47,5 +47,4 @@ public class Versoes12a20 {
 		System.out.println("TEMPERATURAS CIDADES\n");
 		configT.setThreads(320, true);
 	}
-
 }
