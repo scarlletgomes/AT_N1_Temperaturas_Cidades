@@ -13,7 +13,7 @@ public class ControlaThreadCidade {
 		
 	}
 	
-	void setThreads(int numThreads, boolean temThreadAno){
+	void setThreads(int numThreads){
 		ProcessadorCidade[] threads = new ProcessadorCidade[numThreads];
 		int i = 0;
 		
@@ -32,10 +32,12 @@ public class ControlaThreadCidade {
             } else {
                 posicaoFinal = (i + 1) * divisao;
             }
-            threads[i] = new ProcessadorCidade(arquivos, posicaoInicio, posicaoFinal, lock, temThreadAno);
+            // Passa o lock para cada thread no construtor
+            threads[i] = new ProcessadorCidade(arquivos, posicaoInicio, posicaoFinal, lock);
             threads[i].start();
         }
 
+        // Aguarda todas as threads terminarem
         try {
             for (ProcessadorCidade thread : threads) {
                 thread.join();
@@ -45,6 +47,3 @@ public class ControlaThreadCidade {
         }
     }
 }
-
-	
-	
