@@ -14,11 +14,11 @@ public class Versao11 {
 	Versao11(){}
 	
 	void organizarCidades(){
-		LeitorCSV lcsv = new LeitorCSV();
+		LeitorCSV2 lcsv = new LeitorCSV2();
 		File pasta = new File("temperaturas_cidades.arquivos");
 		
 		for(File file:pasta.listFiles()) {
-			cidades.add(lcsv.lerCSV(pasta + "\\" + file.getName(), true));
+			cidades.add(lcsv.lerCSV2(pasta + "\\" + file.getName(), true));
 		}
 	}
 	
@@ -42,6 +42,4 @@ public class Versao11 {
             }
         }
 	}
-
-	
 }
