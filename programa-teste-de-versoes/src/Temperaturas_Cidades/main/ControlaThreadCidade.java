@@ -32,12 +32,12 @@ public class ControlaThreadCidade {
             } else {
                 posicaoFinal = (i + 1) * divisao;
             }
-            // Passa o lock para cada thread no construtor
+            
             threads[i] = new ProcessadorCidade(arquivos, posicaoInicio, posicaoFinal, lock);
             threads[i].start();
         }
 
-        // Aguarda todas as threads terminarem
+       
         try {
             for (ProcessadorCidade thread : threads) {
                 thread.join();
