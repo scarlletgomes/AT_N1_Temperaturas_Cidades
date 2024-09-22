@@ -3,6 +3,7 @@
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades](#funcionalidades)
+* [Como Executar] (#como-executar)
 * [Tecnologias Utilizadas](#tecnolgias-utilizadas)
 * [Autores](#autores)
 
@@ -14,7 +15,11 @@ A atividade consiste na realização de um experimento que visa comparar a efic�
 
 - Lê arquivos CSV com temperaturas diárias de cidades;
 - Calcula as temperaturas médias, máximas e mínimas mensais de 320 cidades desde o ano de 1995 até 2014;
-  
+
+# Como Executar 
+
+Projeto realizado em java 22, execute os arquivos main1 e main2.
+
 # Tecnologias Utilizadas 
 
         
