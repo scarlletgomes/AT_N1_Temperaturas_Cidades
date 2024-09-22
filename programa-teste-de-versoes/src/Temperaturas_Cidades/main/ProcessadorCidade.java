@@ -14,22 +14,21 @@ public class ProcessadorCidade extends Thread {
     private int fim;
     private List<Cidade> cidades = new ArrayList<Cidade>();
     private Lock lock; 
-    private boolean temThreadAno;
 
-    public ProcessadorCidade(String[] arquivos, int inicio, int fim, Lock lock, boolean temThreadAno) {
+    public ProcessadorCidade(String[] arquivos, int inicio, int fim, Lock lock) {
         this.arquivos = arquivos;
         this.inicio = inicio;
         this.fim = fim;
         this.lock = lock;
-        this.temThreadAno = temThreadAno;
     }
 
     @Override
     public void run() {
         LeitorCSV lcsv = new LeitorCSV();
         File pasta = new File("temperaturas_cidades.arquivos");
+
         for (int i = inicio; i < fim; i++) {
-            cidades.add(lcsv.lerCSV(pasta + "\\" + arquivos[i], temThreadAno));
+            cidades.add(lcsv.lerCSV(pasta + "\\" + arquivos[i]));
         }
 
         
@@ -45,8 +44,10 @@ public class ProcessadorCidade extends Thread {
         for (Cidade cidade : cidades) {
             System.out.println("Cidade: " + cidade.getNomeCidade() + "\nPaís: " + cidade.getPais());
             System.out.println(Thread.currentThread().getName());
+
             for (Ano ano : cidade.getAnos()) {
                 System.out.println("Ano: " + ano.getNumeroAno());
+
                 for (Mes mes : ano.getMeses()) {
                     System.out.println("  Mês: " + mes.getNumero());
                     System.out.printf("    Média do mês: %.2f\n", mes.getMediaTempMensal());
@@ -58,4 +59,3 @@ public class ProcessadorCidade extends Thread {
         }
     }
 }
-
