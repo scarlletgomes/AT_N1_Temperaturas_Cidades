@@ -3,7 +3,7 @@
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades](#funcionalidades)
-* [Como Executar] (#como-executar)
+* [Como Executar](#como-executar)
 * [Tecnologias Utilizadas](#tecnolgias-utilizadas)
 * [Autores](#autores)
 
