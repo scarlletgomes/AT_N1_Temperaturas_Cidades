@@ -18,9 +18,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v1.iniciarV1();
-
+			
+			// Captura o tempo final em milissegundos
 	        long tempoFim = System.currentTimeMillis();
 
+	        // Calcula o tempo total de execução
 	        tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -35,9 +37,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV2();
-
+			
+			// Captura o tempo final em milissegundos
 	        long tempoFim = System.currentTimeMillis();
 
+	        // Calcula o tempo total de execução
 	        tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -51,9 +55,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV3();
-
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -67,9 +73,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV4();
-
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -83,9 +91,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV5();
-
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -100,9 +110,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV6();
-
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -116,9 +128,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV7();
-
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -133,9 +147,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV8();
-	
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -150,9 +166,11 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV9();
-	
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
@@ -167,16 +185,17 @@ public class Main1 {
 			long tempoInicio = System.currentTimeMillis();
 			
 			v2a10.iniciarV10();
-
+			
+			// Captura o tempo final em milissegundos
 		long tempoFim = System.currentTimeMillis();
 
+		// Calcula o tempo total de execução
 		tempoExecucoes[i] = tempoFim - tempoInicio;
 
 			tempoMedio +=tempoExecucoes[i];
 		}
 		tempoMedio = tempoMedio/10;
 		System.out.println("Tempo de execução médio V10: " + tempoMedio);
-		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 10");
-		
+		resultado.geraResultado(tempoExecucoes, tempoMedio, "VERSÃO 10");	
 	}
 }
