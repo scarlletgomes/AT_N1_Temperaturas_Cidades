@@ -1,4 +1,4 @@
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 # Índice 
 
 * [Descrição do Projeto](#descrição-do-projeto)
@@ -15,10 +15,10 @@ A atividade consiste na realização de um experimento que visa comparar a efic�
 
 - Lê arquivos CSV com temperaturas diárias de cidades;
 - Calcula as temperaturas médias, máximas e mínimas mensais de 320 cidades desde o ano de 1995 até 2014;
-
+- Testa as diferentes versões com diversos usos de threads na main;
 # Como Executar 
 
-Projeto realizado em java 22, execute os arquivos main1 e main2.
+Projeto realizado em Java 17, execute o arquivo main.java.
 
 # Tecnologias Utilizadas 
 
