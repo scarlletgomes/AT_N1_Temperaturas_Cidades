@@ -11,7 +11,6 @@ public class GeraResultadoTeste {
 	}
 	
 	void geraResultado(long[] tempoExecucao, long tempoMedio, String versao){
-		//Path path = Path.of("resultado_experimentos" + "//"+versao+".txt");
 		File file = new File("resultado_experimentos" + "//"+versao+".txt");
 		
 		
