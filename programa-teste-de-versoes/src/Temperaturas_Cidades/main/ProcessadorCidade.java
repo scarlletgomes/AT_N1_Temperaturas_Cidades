@@ -14,12 +14,14 @@ public class ProcessadorCidade extends Thread {
     private int fim;
     private List<Cidade> cidades = new ArrayList<Cidade>();
     private Lock lock; 
+    private boolean temThreadAno;
 
-    public ProcessadorCidade(String[] arquivos, int inicio, int fim, Lock lock) {
+    public ProcessadorCidade(String[] arquivos, int inicio, int fim, Lock lock, boolean temThreadAno) {
         this.arquivos = arquivos;
         this.inicio = inicio;
         this.fim = fim;
         this.lock = lock;
+        this.temThreadAno = temThreadAno;
     }
 
     @Override
@@ -28,7 +30,7 @@ public class ProcessadorCidade extends Thread {
         File pasta = new File("temperaturas_cidades.arquivos");
 
         for (int i = inicio; i < fim; i++) {
-            cidades.add(lcsv.lerCSV(pasta + "\\" + arquivos[i]));
+            cidades.add(lcsv.lerCSV(pasta + "\\" + arquivos[i], temThreadAno));
         }
 
         
@@ -59,3 +61,4 @@ public class ProcessadorCidade extends Thread {
         }
     }
 }
+
